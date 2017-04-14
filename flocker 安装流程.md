@@ -28,6 +28,7 @@ python setup.py install
 
 
 注：
+
 1、如果python版本为 2.7，且执行 pip install -r requirements/all.txt 时报 “no module named configparser” 的错误，则修改以下文件
 
 /usr/lib/python2.7/site-packages/flake8/main/mercurial.py, 
